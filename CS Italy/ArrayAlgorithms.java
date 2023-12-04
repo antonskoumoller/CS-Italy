@@ -21,7 +21,7 @@ public class ArrayAlgorithms {
    }
    
    public static void insertionSort(int[] a) {
-      for (int i = 1; i < a.length-1; i++){
+      for (int i = 1; i < a.length; i++){
          int j = i;
          while ( a[j] < a[j-1]) {
             int temp = a[j-1];
